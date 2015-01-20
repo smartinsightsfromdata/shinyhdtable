@@ -1,0 +1,20 @@
+.hdtable td.invalid{
+  background: #C66;
+  color: #FFF;
+}
+
+.hdtable td.warning{
+  background: #FE7;
+  color: #630;
+}
+
+.hdtable td.valid{
+  background: #FFF;
+  color: #000;
+}
+
+.hdtable td.missing{
+  background: #00F;
+  color: #FFF;
+}
+

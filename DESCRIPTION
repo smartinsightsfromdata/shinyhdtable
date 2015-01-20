@@ -1,0 +1,18 @@
+Package: shinyhdtable
+Title: A simple handsontable wrapper
+Version: 0.1.2
+Authors@R: c(
+    person("handsontable team", role = c("aut", "cph"),
+       comment = "handsontable library, http://handsontable.com/index.html"),
+    person("Enzo", "Martoglio", role = c("aut", "cre"),
+       comment = "R interface", email = "enzo@smartinsightsfromdata.com")
+    )
+Date: 2014-10-17
+Maintainer: Enzo  <enzo@smartinsightsfromdata.com>
+Description: A simple wrapper of the js library handsontable - tested with
+    partials
+Depends: R
+Imports: shiny  , data.table
+Enhances: shiny 
+License: file LICENSE
+URL: https://github.com/smartinsightsfromdata/
