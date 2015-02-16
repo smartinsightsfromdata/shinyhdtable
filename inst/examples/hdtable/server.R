@@ -41,7 +41,7 @@ output$hdtable2 <- shinyhdtable::renderhdtable({
      df1 <- hdToR(input$hdtable2)
      # print(df1)
       updateTableStyle(session, "hdtable2", "warning", which(as.numeric(df1$value) > 4), 2)
-#      updateTableStyle(session, "hdtable2", "invalid", 2, 1)
+      updateTableStyle(session, "hdtable2", "good", 2, 1)
   }
     }, readOnly = T)
 

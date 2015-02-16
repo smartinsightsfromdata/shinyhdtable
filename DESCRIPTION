@@ -1,6 +1,6 @@
 Package: shinyhdtable
 Title: A simple handsontable wrapper
-Version: 0.1.2
+Version: 0.1.4
 Authors@R: c(
     person("handsontable team", role = c("aut", "cph"),
        comment = "handsontable library, http://handsontable.com/index.html"),
