@@ -31,10 +31,10 @@ hdtable <- function(id) {
 #         initResourcePaths(),
         includeCSS(system.file("bundled-css.css", package="shinyhdtable")),
         tags$script(src = 'shinyhdtable/hdtable.js'),
-        tags$script(src = 'shinyhdtable/jquery.handsontable.full.js'),
+        tags$script(src = 'shinyhdtable/handsontable.full.js'),
         tags$link(rel = 'stylesheet',
                   type = 'text/css',
-                  href = 'shinyhdtable/jquery.handsontable.full.css')
+                  href = 'shinyhdtable/handsontable.full.css')
       )),
 #   tagList(        
 #     singleton(tags$head(tags$link(href = "shinyhdtable/jquery.handsontable.full.css", rel = "stylesheet"))),
